@@ -110,15 +110,42 @@
 # result add
 # print result
 
-data = "Joshua"
+# data = "Joshua"
+# i = 0
+# print("Length ==", len(data))
+# while i < len(data):
+#     print("i==",i,"==", data[i])
+#     j = i + 1
+#     while j < len(data):
+#         print("j==", j, "==", data[j])
+#         print(data[i],"====",data[j])
+#         j = j + 1
+#     print("====")
+#     i = i + 1
+
+data = [100,11,102]
+# print(len(data))
+# output = [0,1,4]
+result = []
 i = 0
-print("Length ==", len(data))
 while i < len(data):
-    print("i==",i,"==", data[i])
-    j = i + 1
-    while j < len(data):
-        print("j==", j, "==", data[j])
-        print(data[i],"====",data[j])
-        j = j + 1
-    print("====")
+    # print(data[i])
+    value = data[i] * data[i]
+    print(value)
+    result.append(value)
     i = i + 1
+# for d in data:
+#     value = d * d
+#     result.append(value)
+print(result)
+#
+# data.sort()
+# print(data)
+
+# live ranking
+# 40 people
+# board - 1 test - ranking board update based on score - [90, 60]
+# you are giving the test and your score is 85
+# rank - [90, 85, 60]
+# compare your score with others score
+# now the updated rank - [90, 85, 60]
